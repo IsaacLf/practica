@@ -17,25 +17,25 @@
         <tr>
             <td>Imagen 1</td>
             <td class="center-image">
-                <img src="{{asset('img/image1.jpg')}}" alt="name1" onclick="location.href='/practica/public/img/image1.jpg';">
+                <img src="{{asset('img/image1.jpg')}}" alt="name1" onclick="window.open('/practica/public/img/image1.jpg');">
             </td>
         </tr>
         <tr>
             <td>Imagen 2</td>
             <td class="center-image">
-                <img src="{{asset('img/image2.jpg')}}" alt="name2" onclick="location.href='/practica/public/img/image2.jpg';">
+                <img src="{{asset('img/image2.jpg')}}" alt="name2" onclick="window.open('/practica/public/img/image2.jpg');">
             </td>
         </tr>
         <tr>
             <td>Imagen 3</td>
             <td class="center-image">
-                <img src="{{asset('img/image3.jpg')}}" alt="name3" onclick="location.href='/practica/public/img/image3.jpg';">
+                <img src="{{asset('img/image3.jpg')}}" alt="name3" onclick="window.open('/practica/public/img/image3.jpg');">
             </td>
         </tr>
         <tr>
             <td>Imagen 4</td>
             <td class="center-image">
-                <img src="{{asset('img/image4.jpg')}}" alt="name4" onclick="location.href='/practica/public/img/image4.jpg';">
+                <img src="{{asset('img/image4.jpg')}}" alt="name4" onclick="window.open('/practica/public/img/image4.jpg');">
             </td>
         </tr>
     </table>
