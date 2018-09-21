@@ -1,13 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Ejercicio 2</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="{{ asset('css/practices/style2.css') }}" />
-</head>
-<body class="master">
+@extends('layout.master')
+
+@section('name', '2')
+
+@section('stylesInclude')
+    <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/practices/style2.css')}}" />
+@endsection
+
+@section('content')
     <header>
         <nav class="navbar">
             <ul>
@@ -71,5 +70,4 @@
     <footer>
         <span>Elementos básicos-Semana 3 Sesión 13/40</span>
     </footer>
-</body>
-</html>
+@endsection

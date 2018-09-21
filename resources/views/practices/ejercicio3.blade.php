@@ -1,14 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Ejercicio 3</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layout.master')
+
+@section('name', '3')
+
+@section('stylesInclude')
     <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/practices/style3.css')}}" />
-</head>
-<body>
-    <h1>Lista de imágenes</h1>
+@endsection
+
+@section('content')
+<h1>Lista de imágenes</h1>
     <table class="image-list">
         <tr>
             <th>Nombre (Título de la imagen)</th>
@@ -39,5 +38,4 @@
             </td>
         </tr>
     </table>
-</body>
-</html>
+@endsection

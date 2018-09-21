@@ -1,13 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Ejercicio 4</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layout.master')
+
+@section('name', '4')
+
+@section('stylesInclude')
     <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/practices/style4.css')}}" />
-</head>
-<body>
+@endsection
+
+@section('content')
     <h1>Este es un ejemplo para la maestra Yaqui</h1>
-</body>
-</html>
+@endsection
