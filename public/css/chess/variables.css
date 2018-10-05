@@ -1,0 +1,23 @@
+
+/* Custom Properties */
+
+:root {
+  --color:          hsl(0,0%,22%);
+  --color-subtle:   hsl(0,0%,44%);
+  --color-strong:   hsl(0,0%,11%);
+  --color-link:     hsl(0,0%,22%);
+
+  --color-border:   hsl(0,0%,88%);
+  --color-bg:       hsl(0,0%,96%);
+
+  --color-accent:   black; /* Fallback */
+}
+
+
+/* Category Colors */
+
+.u-category-main          { --color-accent: hsl(0, 86%, 43%); } 
+.u-category-language      { --color-accent: hsl(194, 60%, 36%); }
+.u-category-doc           { --color-accent: hsl(285, 47%, 46%); }
+.u-category-about         { --color-accent: hsl( 36, 77%, 34%); }
+.u-category-gallery       { --color-accent: hsl(330, 65%, 48%); }
